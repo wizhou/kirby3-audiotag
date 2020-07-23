@@ -11,7 +11,7 @@ This plugin was built using Kirby 3. It will not work on earlier versions.
 
 ### Download
 
-[Download the files]() and place them inside `site/plugins/kirby3-audiotag`.
+[Download the files](https://github.com/wizhou/kirby3-audiotag/archive/master.zip) and place them inside `site/plugins/kirby3-audiotag`.
 
 ### Git Submodule
 
@@ -89,7 +89,7 @@ You can provide any amount of source audio files with the `source:` attribute.
 
 It will replace the `src=""` attribute of the `<audio>` element with `<source>` elements. The audio file specified by calling the *kirbytag* will also be implemented as a source.
 
-Also, the MIME type of each source will be added as a `type=""` attribute to the `<source>` element with the `Mime::type()` class.
+Also, the MIME type of each source will be added as a `type=""` attribute to the `<source>` element with the `Mime::type()` [class](https://getkirby.com/docs/reference/tools/mime/type).
 
 ~~~~
 (audio: audiofile.mp3 sources: audiofile.vorbis, audiofile.ogg, audiofile.waw)
@@ -117,7 +117,7 @@ It is composed of a sentence and a direct download link to the audio file.
 <p>Your browser does not support the <code>audio</code> element. Here is a <a href="audiofile.mp3">link to the audio file </a> to download it.</p>
 ~~~~
 
-The plugin use the translate by key `tt()` helper to provide the sentence, it is builded as follow :
+The plugin use the translate by key `tt()` [helper](https://getkirby.com/docs/reference/templates/helpers/tt) to provide the sentence, it is builded as follow :
 
 ~~~~ php
 <?php
