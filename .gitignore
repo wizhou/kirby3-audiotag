@@ -1,0 +1,10 @@
+Icon
+.DS_Store
+.lock
+.cache
+
+# npm modules
+/node_modules
+
+# Composer files
+/vendor

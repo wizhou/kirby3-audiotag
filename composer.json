@@ -1,0 +1,17 @@
+{
+    "name": "wizhou/kirby3-audiotag",
+    "description": "Kirbytag to create an HTML5 <audio> tag with audio files.",
+    "type": "kirby-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "wizhou",
+        "email": "coucou@romaingoetz.fr"
+    }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    },
+    "minimum-stability": "stable",
+}
