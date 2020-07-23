@@ -80,7 +80,7 @@ Many attributes can be used inside the *kirbytag*.
 | `loop` | `true`, `false` | If specified, the audio player will restart upon the end of the audio. |
 | `muted` | `true`, `false` | If specified, the audio player will be initially silenced. |
 | `preload` | `none`, `metadata`, `auto` | Provide a hint to the browser about the file loading. `none` indicates that the audio should not be preloaded, `metadata` indicates that only audio metadata is fetched, `auto` indicates that the whole audio file can be downloaded. |
-| `sources` | `audiofile.mp3, audiofile.ogg, audiofile.vorbis` | You can provide mutliple source for the audio element. Then the browser will use the first one it undersand. You have to spearate eache filename with `,`. |
+| `sources` | `audiofile.mp3, audiofile.ogg, audiofile.vorbis` … | You can provide mutliple source for the audio element. Then the browser will use the first one it undersand. You have to spearate eache filename with `,`. |
 
 
 ### Source
