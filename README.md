@@ -48,7 +48,7 @@ composer require wizhou/kirby3-audiotag
 For a minimal usage, and similar to an `image()` *kirbytag*, upload an audio file into your page and give it to the *kirbytag* with its extension.
 
 ~~~~ md
-audio(audiofile.mp3)
+(audio:audiofile.mp3)
 ~~~~
 
 The following `<audio>` element will be generated :
@@ -62,7 +62,7 @@ The following `<audio>` element will be generated :
 The `controls` attribute is set by default. To remove it, use the following attribute :
 
 ~~~~ md
-audio(audiofile.mp3 controls: false)
+(audio:audiofile.mp3 controls: false)
 ~~~~
 
 If you don't want to use the `control` attribute, thus the audio player won't include the browser's default controls. You can, however, create your own custom controls using JavaScript and the [HTMLMediaElement API](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement).
