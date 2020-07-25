@@ -45,7 +45,7 @@ composer require wizhou/kirby3-audiotag
 ## Usage
 
 ### Minimal usage
-For a minimal usage, and similar to an `image()` *kirbytag*, upload an audio file into your page and give it to the *kirbytag* with its extension.
+For a minimal usage, and similar to an `(image:)` *kirbytag*, upload an audio file into your page and give it to the *kirbytag* with its extension.
 
 ~~~~ md
 (audio:audiofile.mp3)
